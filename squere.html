@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Squere Root</title>
+    </head>
+    <body>
+        <style>
+            body {
+                background: lightgreen;
+                text-align: center;
+            }
+            button {
+                height: 80px;
+                width: 130px;
+                font-size: 30px;
+                font-weight: bold;
+                color: black;
+                background: transparent;
+                border: 3px solid rgba(0, 0, 0, 0.5);
+                border-radius: 20px;
+                transition: 0.5s;
+            }
+            button:hover {
+                color: white;
+                border: 3px solid white;
+                cursor: pointer;
+            }
+            #result {
+                font-size: 35px;
+                font-weight: 500;
+                color: darkcyan;
+            }
+            p {
+                font-size: 30px;
+            }
+            #credit {
+                font-weight: 400;
+                font-size: 30px;
+                color: white;
+            }
+            #note {
+                color: cadetblue;
+                text-decoration: underline;
+                font-weight: 600;
+            }
+            #root {
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+        </style>
+        <div>
+            <button onclick="squere()" name="Button2">Squere Number</button> <br>
+            <p><div id="result"></div></p> <br> <br> <br>
+        </div>
+        <footer>
+            <a href="index.html" id="root">Squere Root</a> <br>
+             <p  id="credit">Made by Marko Kuruzović</p>
+             <p id="note">NOTE: NaN = Not a number!</p>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
