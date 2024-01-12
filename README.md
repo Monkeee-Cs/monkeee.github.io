@@ -12,6 +12,9 @@ As this takes your number and returnes the squere root of it and it can also giv
 - main.js - Math functions are completed here!
 
 # Instructions:
+## Website:
+You can also use [This website](https://monkeee-cs.github.io/squereRoot/)!
+## Device:
 ### Mobile:
 1. Install a file manager app (any like zAchiver)
 2. Download and Install the zip file of the code
